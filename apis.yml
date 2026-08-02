@@ -1,17 +1,43 @@
 aid: beyond-imagination
 name: Beyond Imagination
-description: 'Beyond Imagination is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Beyond Imagination, Inc. is a Los Angeles based robotics and artificial
+  intelligence company founded in January 2018 by Dr. Harry Kloor and Dr. Ray Kurzweil,
+  building general-purpose humanoid robots and the AI software stack that runs them.
+  Its flagship platform is Beomni, a wheeled humanoid robot with an articulated upper
+  body and dexterous hands that can be teleoperated through VR headsets and haptic
+  gloves or run autonomously. The software side is marketed as four products: AURA
+  (Adaptive Unified Robotic/Human Administrator), a universal operating system for
+  coordinating robots, humans and infrastructure across manufacturing ecosystems;
+  ARCANA, an LLM-free synthetic brain architecture for real-time perception, decision
+  making and coordination; Expert Minds, modular AI job modules trained for specialized
+  roles such as chemical handling, bio-reactor operation, surgical prep and warehouse
+  logistics; and Hive Mind Intelligence, a fleet learning layer where robots upload
+  new skills to a shared cloud memory. The company has run pilot programs in commercial
+  kitchens, laboratory work, healthcare and pharmaceutical manufacturing, and announced
+  a manufacturing partnership with Korean electronics manufacturer Dreamtech. As of
+  this profiling pass Beyond Imagination publishes no public developer portal, API
+  documentation, machine-readable API contract, SDKs or MCP/agent surface; its public
+  web presence is a marketing site only.'
+image: https://www.beyondimagination.com/wp-content/uploads/2025/07/logo-black.png
 url: https://raw.githubusercontent.com/api-evangelist/beyond-imagination/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass-no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Robotics
+- Humanoid Robots
+- Artificial Intelligence
+- Machine Learning
+- Manufacturing
+- Automation
+- Teleoperation
+- Healthcare
+- Embodied AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +45,41 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beyond-imagination-domain-security.yml
+- type: LLMsTxt
+  url: llms/beyond-imagination-llms.txt
 - type: Website
+  url: https://www.beyondimagination.com/
+- type: Products
+  url: https://www.beyondimagination.com/products/
+- type: About
+  url: https://www.beyondimagination.com/ai/
+- type: Team
+  url: https://www.beyondimagination.com/founders/
+- type: News
+  url: https://www.beyondimagination.com/news/
+- type: Blog
+  url: https://www.beyondimagination.com/news/
+- type: BlogFeeds
+  url: https://www.beyondimagination.com/feed/
+- type: Videos
+  url: https://www.beyondimagination.com/video-gallery/
+- type: History
+  url: https://www.beyondimagination.com/milestones/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/beyond-imagination-inc
+- type: Facebook
+  url: https://www.facebook.com/beyondimaginationinc/
+- type: Instagram
+  url: https://www.instagram.com/beyondimaginationinc/
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/beyond-imagination
+- type: Investors
   url: https://forgeglobal.com/beyond-imagination_stock/
+
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

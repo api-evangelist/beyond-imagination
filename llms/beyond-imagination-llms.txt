@@ -1,0 +1,54 @@
+# Beyond Imagination
+
+> Beyond Imagination, Inc. is a Los Angeles based robotics and artificial intelligence
+> company founded in January 2018 by Dr. Harry Kloor and Dr. Ray Kurzweil. It builds
+> general-purpose humanoid robots — the Beomni platform — and the AI software stack
+> that runs them. Beyond Imagination publishes no public API, developer portal, SDK,
+> MCP server or machine-readable contract; its public surface is a marketing site.
+
+Generated: 2026-08-02
+Method: generated (from apis.yml + API Evangelist enrichment probes — the provider
+publishes no llms.txt of its own; https://www.beyondimagination.com/llms.txt returns 404)
+
+## Products
+
+- [AURA](https://www.beyondimagination.com/products/): Adaptive Unified Robotic/Human Administrator — a universal operating system for coordinating robots, humans and infrastructure across manufacturing ecosystems.
+- [ARCANA](https://www.beyondimagination.com/ai/): An LLM-free synthetic brain architecture modeled on the human mind, powering real-time perception, decision making and coordination.
+- [Expert Minds](https://www.beyondimagination.com/products/): Modular AI job modules trained for specialized roles — chemical handling, bio-reactor operation, surgical prep, warehouse logistics.
+- [Hive Mind Intelligence](https://www.beyondimagination.com/products/): Fleet learning — robots upload new skills from live operations and video into a shared cloud memory.
+- Beomni: A wheeled humanoid robot with an articulated upper body and dexterous hands, operable via VR headset and haptic gloves or autonomously.
+
+## APIs
+
+Beyond Imagination publishes no public API. As of 2026-08-02 there is no developer
+portal, no API reference, no OpenAPI/AsyncAPI/GraphQL contract, no MCP server, no
+A2A agent card, and no first-party SDK on npm, PyPI, crates.io or RubyGems.
+
+## Docs
+
+- [Website](https://www.beyondimagination.com/)
+- [Products](https://www.beyondimagination.com/products/)
+- [AI technology](https://www.beyondimagination.com/ai/)
+- [Pilot programs](https://www.beyondimagination.com/pilot-programs/)
+- [Founders](https://www.beyondimagination.com/founders/)
+- [Milestones](https://www.beyondimagination.com/milestones/)
+- [Video gallery](https://www.beyondimagination.com/video-gallery/)
+
+## News
+
+- [News](https://www.beyondimagination.com/news/)
+- [News feed (RSS)](https://www.beyondimagination.com/feed/)
+
+## Company
+
+- [LinkedIn](https://www.linkedin.com/company/beyond-imagination-inc)
+- [Facebook](https://www.facebook.com/beyondimaginationinc/)
+- [Instagram](https://www.instagram.com/beyondimaginationinc/)
+- [Crunchbase](https://www.crunchbase.com/organization/beyond-imagination)
+- [Forge Global secondary-market listing](https://forgeglobal.com/beyond-imagination_stock/)
+
+## Artifacts
+
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/beyond-imagination/refs/heads/main/security/beyond-imagination-domain-security.yml)
+- [Well-known / contract discovery probe](https://raw.githubusercontent.com/api-evangelist/beyond-imagination/refs/heads/main/well-known/beyond-imagination-well-known.yml)
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/beyond-imagination/refs/heads/main/apis.yml)
