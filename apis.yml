@@ -18,6 +18,17 @@ description: 'Beyond Imagination, Inc. is a Los Angeles based robotics and artif
   this profiling pass Beyond Imagination publishes no public developer portal, API
   documentation, machine-readable API contract, SDKs or MCP/agent surface; its public
   web presence is a marketing site only.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.beyondimagination.com/wp-content/uploads/2025/07/logo-black.png
 url: https://raw.githubusercontent.com/api-evangelist/beyond-imagination/refs/heads/main/apis.yml
 x-type: company
