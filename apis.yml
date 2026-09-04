@@ -29,6 +29,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://www.beyondimagination.com/wp-content/uploads/2025/07/logo-black.png
 url: https://raw.githubusercontent.com/api-evangelist/beyond-imagination/refs/heads/main/apis.yml
 x-type: company
