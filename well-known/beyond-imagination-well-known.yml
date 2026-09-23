@@ -1,12 +1,10 @@
 generated: '2026-08-02'
 method: probed
 source: live HTTPS probes of every host published by Beyond Imagination
-note: >-
-  No /.well-known/ document was found on any Beyond Imagination host. This file is
-  the negative record of the probe so a later pass does not repeat it blindly. No
-  WellKnown, SecurityTxt, APICatalog or AgentCard pointer is wired in apis.yml,
-  because none of those documents exist — recording a pointer here would credit the
-  provider with a discovery surface it does not publish.
+note: No /.well-known/ document was found on any Beyond Imagination host. This file is the negative record
+  of the probe so a later pass does not repeat it blindly. No WellKnown, SecurityTxt, APICatalog or AgentCard
+  pointer is wired in apis.yml, because none of those documents exist — recording a pointer here would
+  credit the provider with a discovery surface it does not publish.
 hosts_probed:
 - https://www.beyondimagination.com
 - https://beyondimagination.com
@@ -17,29 +15,9 @@ hosts_not_resolving:
 - app.beyondimagination.com
 - trust.beyondimagination.com
 - beomni.com
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/oauth-protected-resource
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-- path: /.well-known/agent-card.json
-  status: 404
-- path: /.well-known/agent.json
-  status: 404
-- path: /.well-known/mcp.json
-  status: 404
 contract_discovery:
-  note: >-
-    STEP 0b contract discovery run against every published host. Beyond Imagination
-    publishes no machine-readable API contract of any kind.
+  note: STEP 0b contract discovery run against every published host. Beyond Imagination publishes no machine-readable
+    API contract of any kind.
   probes:
   - path: /openapi.json
     host: www.beyondimagination.com
@@ -63,10 +41,35 @@ contract_discovery:
     pypi: none
     crates: none
     rubygems: none
-  github_org: >-
-    No first-party GitHub organization found. github.com/Beyond-Imagination exists
-    but is an unrelated Korean student developer group (Korean-language project
-    repos, created 2017-07-24) — deliberately NOT wired as GitHubOrganization.
+  github_org: No first-party GitHub organization found. github.com/Beyond-Imagination exists but is an
+    unrelated Korean student developer group (Korean-language project repos, created 2017-07-24) — deliberately
+    NOT wired as GitHubOrganization.
 x-evidence:
   fetched: '2026-08-02'
   method: curl HTTPS HEAD/GET, follow redirects, 15s timeout
+hosts:
+- host: ''
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/mcp.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
