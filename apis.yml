@@ -55,7 +55,7 @@ tags:
 - Robotics
 - Humanoid Robots
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Manufacturing
 - Automation
 - Teleoperation
@@ -72,6 +72,7 @@ tags_raw:
 - Teleoperation
 - Healthcare
 - Embodied AI
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
