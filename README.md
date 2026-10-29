@@ -64,31 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Beyond Imagination, Inc. is a Los Angeles based robotics and artificial intelligence company founded in January 2018 by Dr. Harry Kloor and Dr. Ray Kurzweil. It builds general-purpose humanoid robots — the **Beomni** platform — and the AI software stack that runs them: **AURA** (Adaptive Unified Robotic/Human Administrator, a universal operating system coordinating robots, humans and infrastructure), **ARCANA** (an LLM-free synthetic brain architecture), **Expert Minds** (modular AI job modules for specialized roles), and **Hive Mind Intelligence** (fleet-wide skill sharing through a shared cloud memory).
+Beyond Imagination, Inc. is a Los Angeles based robotics and artificial intelligence company founded in January 2018 by Dr. Harry Kloor and Dr. Ray Kurzweil, building general-purpose humanoid robots and the AI software stack that runs them. Its flagship platform is Beomni, a wheeled humanoid robot with an articulated upper body and dexterous hands that can be teleoperated through VR headsets and haptic gloves or run autonomously. The software side is marketed as four products: AURA (Adaptive Unified Robotic/Human Administrator), a universal operating system for coordinating robots, humans and infrastructure across manufacturing ecosystems; ARCANA, an LLM-free synthetic brain architecture for real-time perception, decision making and coordination; Expert Minds, modular AI job modules trained for specialized roles such as chemical handling, bio-reactor operation, surgical prep and warehouse logistics; and Hive Mind Intelligence, a fleet learning layer where robots upload new skills to a shared cloud memory. The company has run pilot programs in commercial kitchens, laboratory work, healthcare and pharmaceutical manufacturing, and announced a manufacturing partnership with Korean electronics manufacturer Dreamtech. As of this profiling pass Beyond Imagination publishes no public developer portal, API documentation, machine-readable API contract, SDKs or MCP/agent surface; its public web presence is a marketing site only.
 
-Beomni is a wheeled humanoid with an articulated upper body and dexterous hands, operable through VR headsets and haptic gloves or autonomously. The company has run pilot programs in commercial kitchens, laboratory work, healthcare and pharmaceutical manufacturing, and announced a manufacturing partnership with the Korean electronics manufacturer Dreamtech.
+**Areas:** Company · Robotics · Humanoid Robots · Artificial Intelligence · Machine Learning · Manufacturing · Automation · Teleoperation · Healthcare · Embodied AI
 
-## API surface
+## Beyond Imagination on APIs.io
 
-**As of 2026-08-02 Beyond Imagination publishes no public API.** Full contract discovery was run against every published and candidate host and found nothing:
+Everything profiled for Beyond Imagination is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/beyond-imagination/](https://apis.io/providers/beyond-imagination/)** — or go straight to one of the APIs or properties below.
 
-- No developer portal, API reference, or documentation site
-- No OpenAPI / Swagger / AsyncAPI / GraphQL contract (`/openapi.json`, `/swagger.json`, `/api-docs` all 404)
-- No MCP server and no A2A agent card (`/.well-known/agent-card.json` and `/.well-known/agent.json` both 404)
-- No `/.well-known/` document of any kind, including `security.txt`
-- No first-party SDK on npm, PyPI, crates.io or RubyGems
-- No first-party GitHub organization (`github.com/Beyond-Imagination` is an unrelated Korean student developer group)
-- No `api.`, `developer.`, `docs.`, `app.` or `trust.` subdomain resolves
+### Published properties
 
-The negative probe record is kept in [`well-known/beyond-imagination-well-known.yml`](well-known/beyond-imagination-well-known.yml) so a later pass does not repeat it blindly.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Links
+#### Security (1)
 
-- Website — https://www.beyondimagination.com/
-- Products — https://www.beyondimagination.com/products/
-- AI technology — https://www.beyondimagination.com/ai/
-- Pilot programs — https://www.beyondimagination.com/pilot-programs/
-- Founders — https://www.beyondimagination.com/founders/
-- News — https://www.beyondimagination.com/news/
-- LinkedIn — https://www.linkedin.com/company/beyond-imagination-inc
-- Forge Global (secondary market) — https://forgeglobal.com/beyond-imagination_stock/
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Beyond Imagination Domain Security](https://apis.io/security/beyond-imagination/beyond-imagination-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.beyondimagination.com/)
+- [Blog](https://www.beyondimagination.com/news/)
+
+## API Evangelist rating
+
+**Kin Score 5.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/beyond-imagination/](https://apis.io/providers/beyond-imagination/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Beyond Imagination: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/beyond-imagination/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
